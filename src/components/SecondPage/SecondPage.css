@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap");
+
+.secondPage__header {
+  width: 1440px;
+  height: 375px;
+  margin: 85px 16px 0 0;
+  object-fit: contain;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.secondPage__header__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 116px 174px 130px 182px;
+}
+
+.secondPage__header__title {
+  width: 202px;
+  height: 28px;
+  font-family: Montserrat;
+  font-size: 29px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffba00;
+}
+
+.secondPage__header__content {
+  width: 278px;
+  height: 66px;
+  margin: 32px 126px 0 0;
+  object-fit: contain;
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.secondPage__sectionTwo__body {
+  padding: 93px 0 55px 259px;
+  position: relative;
+}
+
+.secondPage__body__img {
+  position: absolute;
+  height: 1202px;
+  object-fit: contain;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.secondPage__body__title {
+  position: relative;
+  margin: 0 257px 50px 360px;
+}
+
+.secondPage__body__title__content {
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  text-align: right;
+  color: #ffba00;
+}
+
+.secondPage__body__menuTitle {
+  width: 1178px;
+  height: 131px;
+  border: solid 2px #ffffff;
+}
+
+.secondPage__body__menuTitle__content__container {
+  /* width: 1181px; */
+  height: 131px;
+  padding: 10px 495px 72px 260px;
+}
+
+.secondPage__body__menuTitle__content {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffba00;
+  text-transform: uppercase;
+}
+
+.secondPage__body__menuBackground {
+  width: 1035px;
+  height: 413px;
+  margin: 90px 0 28px 146px;
+  background-color: #ffba00;
+  position: absolute;
+  z-index: -1;
+}
+
+.secondPage__body__menu{
+  position: relative;
+  width: 553px;
+  height: 432px;
+  margin: 170px 109px 63px 185px;
+  object-fit: contain;
+  font-family: Lato;
+  font-size: 33px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.secondPage__bottom{
+  width: 936px;
+  height: 159px;
+  margin: 63px 245px 0 0;
+  object-fit: contain;
+  border: solid 2px #ffffff;
+  position: relative;
+}
+
+.secondPage__bottom__content{
+  padding: 22px 557px 29px 186px;
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.68;
+  letter-spacing: 1.25px;
+  text-align: left;
+  color: #ffffff;
+}

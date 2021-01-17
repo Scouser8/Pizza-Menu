@@ -1,0 +1,25 @@
+.navbar {
+  align-self: center;
+  margin-left: 0;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  list-style-type: none;
+  width: 640px;
+  /* height: 31px; */
+  font-family: Lato;
+  font-size: 33px;
+  letter-spacing: 1.65px;
+  color: #ffffff;
+}
+
+.navbar__list li {
+  cursor: pointer;
+}
+
+.navbar__list li:hover{
+    color: #ffba00;
+}

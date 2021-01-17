@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+
+.firsPage {
+  z-index: 0;
+  position: relative;
+}
+
+
+.firstPage__sectionOne {
+  width: 1456px;
+  height: 961px;
+  padding: 38px 0 0px 1px;
+  position: relative;
+}
+
+.firstPage__mainImage {
+  height: 961px;
+  object-fit: contain;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+}
+
+.firstPage__middle__background {
+  width: 1439px;
+  height: 198px;
+  margin: 288px 0 37px;
+  object-fit: contain;
+  background-color: #ffba00;
+  position: absolute;
+}
+
+.firstPage__middle__text {
+  width: 563px;
+  height: 196px;
+  margin: 327px 78px 0 170px;
+  z-index: 1;
+  position: absolute;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.firstPage__middle__text__lineOne {
+  font-family: "Montserrat", sans-serif;
+  line-height: 104px;
+  font-size: 125px;
+  font-weight: 900;
+  letter-spacing: normal;
+}
+
+.firstPage__middle__text__lineTwo {
+  font-size: 104px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  line-height: 104px;
+  letter-spacing: 10.4px;
+}
+
+.firstPage__middle__btn {
+  width: 340px;
+  height: 85px;
+  margin: 437px 288px 1px 811px;
+  border: solid 4px #ffffff;
+  background-color: #ffba00;
+  z-index: 1;
+  position: absolute;
+  font-family: Montserrat;
+  font-size: 37px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.whats__new {
+  position: absolute;
+  width: 602px;
+  height: 328px;
+  margin: 141px 27px 141px 281px;
+  object-fit: contain;
+  font-family: "Lato", sans-serif;
+  font-size: 33px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.whats__new__title {
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: 8.4px;
+}
+
+.whats__new__content {
+  font-weight: 500;
+  z-index: 2;
+}
+
+.whats__new__background {
+  width: 840px;
+  height: 190px;
+  margin: 213px 78px 207px 132px;
+  object-fit: contain;
+  background-color: #ffba00;
+  position: absolute;
+}
+
+.newFormat {
+  position: absolute;
+  width: 38px;
+  height: 317px;
+  margin: 142px 76px 151px 167px;
+  z-index: 1;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.newFormat__text {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3px;
+  font-size: 3rem;
+  color: white;
+}
+
+.firstPage__sideImage {
+  width: 621px;
+  height: 444px;
+  margin: 81px 16px 85px 819px;
+  object-fit: contain;
+  position: relative;
+  z-index: -1;
+}

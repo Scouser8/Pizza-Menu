@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  height: 77px;
+  /* position: relative; */
+}
+
+.header__title {
+  width: 351px;
+  height: 77px;
+  margin: 0 165px 288px 1px;
+  padding: 16px 36px 28px 131px;
+  object-fit: contain;
+  background-color: #ffba00;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header__title__content {
+  width: 184px;
+  height: 33px;
+  object-fit: contain;
+  font-family: Montserrat;
+  font-size: 33px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.65px;
+  text-align: right;
+  color: #ffffff;
+}
