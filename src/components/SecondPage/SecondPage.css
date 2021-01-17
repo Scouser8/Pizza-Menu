@@ -109,7 +109,7 @@
   z-index: -1;
 }
 
-.secondPage__body__menu{
+.secondPage__body__menu {
   position: relative;
   width: 553px;
   height: 432px;
@@ -127,7 +127,23 @@
   z-index: 1;
 }
 
-.secondPage__bottom{
+.secondPage__menu__priceBG {
+  position: absolute;
+  width: 65px;
+  height: 440px;
+  margin: 156px 250px 69px 866px;
+  object-fit: contain;
+  mix-blend-mode: overlay;
+  background-color: #ffba00;
+}
+
+.whats__new__content {
+  display: flex;
+  justify-content: space-between;
+  width: 720px;
+}
+
+.secondPage__bottom {
   width: 936px;
   height: 159px;
   margin: 63px 245px 0 0;
@@ -136,7 +152,7 @@
   position: relative;
 }
 
-.secondPage__bottom__content{
+.secondPage__bottom__content {
   padding: 22px 557px 29px 186px;
   font-family: Lato;
   font-size: 25px;
