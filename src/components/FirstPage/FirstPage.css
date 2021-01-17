@@ -6,6 +6,7 @@
   position: relative;
 }
 
+/* 1456 */
 
 .firstPage__sectionOne {
   width: 1456px;
@@ -78,7 +79,7 @@
   outline: none;
 }
 
-.whats__new {
+.firstPage__whats__new {
   position: absolute;
   width: 602px;
   height: 328px;
@@ -96,13 +97,13 @@
   z-index: 1;
 }
 
-.whats__new__title {
+.firstPage__whats__new__title {
   font-size: 42px;
   font-weight: 900;
   letter-spacing: 8.4px;
 }
 
-.whats__new__content {
+.firstPage__whats__new__content {
   font-weight: 500;
   z-index: 2;
 }

@@ -19,20 +19,20 @@ export default function FirstPage() {
         <button className="firstPage__middle__btn">READ MORE</button>
       </div>
 
-      <div className="whats__new">
-        <p className="whats__new__title">What's new?</p>
+      <div className="firstPage__whats__new">
+        <p className="firstPage__whats__new__title">What's new?</p>
         <br />
-        <p className="whats__new__content">
+        <p className="firstPage__whats__new__content">
           <span style={{ fontWeight: 900, marginRight: "20px" }}>|</span>Sed do
           eiusmod tempor incididunt ut Labore et
         </p>
         <br />
-        <p className="whats__new__content">
+        <p className="firstPage__whats__new__content">
           <span style={{ fontWeight: 900, marginRight: "20px" }}>|</span>
           Dolore magna aliqua
         </p>
         <br />
-        <p className="whats__new__content">
+        <p className="firstPage__whats__new__content">
           <span style={{ fontWeight: 900, marginRight: "20px" }}>|</span>Quis
           ipsum suspendisse ultrices gravida
         </p>
